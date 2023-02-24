@@ -7,6 +7,7 @@ import { Discount } from './Components/Discount'
 import Review from './Components/Review'
 import Staff from './Components/Staff'
 import Footer from './Components/Footer'
+import Contact from './Components/Contact'
 
 
 function App() {
@@ -14,12 +15,9 @@ function App() {
     <div>
       <Navbar/>
       <Home/>
-      <Cards/>
+      {/* <Cards/> */}
       <Tours/>
-      <Discount/>
-      <Review/>
-      <Staff/>
-      <Footer/>
+      <Contact/>
     </div>
   )
 }
