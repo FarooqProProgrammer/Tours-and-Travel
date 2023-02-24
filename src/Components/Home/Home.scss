@@ -1,0 +1,39 @@
+.Home{
+    width: 100%;
+    height: 550px;
+    background-image: url('../../assets/Home.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    input {
+        width: 70%;
+        height: 70px;
+        border: none;
+    }
+    button {
+        width: 140px;
+        height: 70px;
+        background-color: var(--primaryColor);
+        border: none;
+        color: var(--greyColor);
+        font-size: 24px;
+    }
+
+ 
+}
+@media (max-width:990px) {
+    .Home {
+        flex-direction: column;
+        input {
+            width: 80%;
+            font-size: 14px;
+        }
+        button {
+            width: 80%;
+        }
+    }
+}
